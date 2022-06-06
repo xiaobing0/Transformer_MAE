@@ -181,7 +181,7 @@ def get_args_parser():
     parser.add_argument('--dist_url', default='env://', help='url used to set up distributed training')
 
     # Liu Tao mae-deit
-    parser.add_argument('--mae', default=True, type=bool,
+    parser.add_argument('--mae', default=False, type=bool,
                         help='whether using mae to rec img')
     return parser
 
